@@ -37,7 +37,7 @@
               echo $mod -> getMsgInvalidParam();
 
            }
-
+  
         }else if ($operation == 'login') {
 
           if(isset($data -> user ) && !empty($data -> user) && isset($data -> user -> email) && isset($data -> user -> password)){
@@ -82,7 +82,7 @@
 
     }
   } else if ($_SERVER['REQUEST_METHOD'] == 'GET'){
-
+    //asd
     echo "<center>Login API</center>";
 
   }
